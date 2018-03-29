@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rohit.methoddemo.AdminMaster"
+    android:orientation="vertical"
+    android:padding="13dp">
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Otp Number"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white" />
+
+    <EditText
+        android:id="@+id/adminFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter First Name"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white" />
+
+    <EditText
+        android:id="@+id/adminLname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Last Name"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:inputType="textPostalAddress"
+        android:id="@+id/adminAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Address"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:lines="5"/>
+
+    <EditText
+        android:inputType="textPersonName"
+        android:id="@+id/adminState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter State"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:textColorHighlight="@color/white"
+        />
+
+    <EditText
+        android:inputType="textPersonName"
+        android:id="@+id/adminCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter City"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:textColorHighlight="@color/white"
+        />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/adminZcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Zip Code"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:textColorHighlight="@color/white"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v4.widget.Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/adminSubmitData"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:shadowColor="@color/white"
+            android:text="SUBMIT DATA"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

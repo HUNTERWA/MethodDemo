@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rohit.methoddemo.Declaration"
+    android:id="@+id/constraintLayout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Declaration Page
+At its most basic definition, your declaration page (or “dec page”) is a detailed summary of your car insurance policy.
+
+The information that makes up the declaration page forms an outline of your entire car insurance policy.
+
+Basic Policy Information
+Car insurance declaration pages typically start of with basic policy information which includes:
+
+Your policy number.
+The effective start and expiration dates of your policy.
+The policy term (typically 6 months).
+Named insured.
+The named insured is the primary driver of the insured car.
+Address of the named insured.
+Rated operators.
+This is a list of the named insured and any other drivers on the policy.
+Excluded drivers.
+This is a list of any other driver within the same household who is excluded from the policy (does not have coverage).
+Information of all cars on the policy, including:
+Make.
+Model.
+Year.
+VIN.
+Coverages and Premiums
+Generally, the next section of a declaration page will consist of a breakdown of your car insurance policy’s coverages and premiums.
+
+Each coverage type will be paired with the premium cost for that specific coverage. If there are multiple cars on the policy, the premiums will also be itemized by car.
+
+Additionally, any deductibles – your out-of-pocket expenses towards a claim – that apply to your policy will be listed in this section.
+
+Loss Payees
+This section of your declaration page will list out any loss payees – persons or entities, besides the named insured, who have insurable interest on the insured item.
+
+In a car insurance policy, loss payees are typically lessors or lenders.
+
+If your car is leased, or you have purchased it using a car loan, your lessor or lender will be listed in this section of your car insurance declaration page.
+
+Notes
+In this section, you will find miscellaneous notes regarding your auto insurance policy.
+
+Common notes include the following:
+
+Verification of your driving record, including number of violations and accidents.
+Various discounts that apply to your policy.
+Average annual mileage.
+Location of primary overnight parking.
+Forms and Endorsements
+The forms sections lists out all forms and endorsements that apply to your policy.
+
+The various forms and endorsements are typically annotated with 10-digit numbers. These numbers are not necessarily standard across car insurance companies. Each car insurance company assigns their own numbers to forms and endorsements.
+
+Forms
+Forms are key components of your car insurance policy.
+
+In car insurance terms, forms are the contract documents that make up your entire car insurance policy. Your declaration page, for example, is technically a form. You may notice that it is listed in this section.
+
+There are several forms that can make up a car insurance. Some of the most common forms include the following:
+
+Personal auto policy.
+Declaration page.
+Privacy notice.
+State and Federal notices.
+Endorsements
+Endorsements are amendments to your car insurance policy.
+
+Non-standard optional car insurance coverages are often added to policies as endorsements.
+
+Some examples of these coverages include:
+
+Uninsured motorists coverage.
+Custom parts and accessories coverage.
+Roadside assistance coverage.
+Personal Auto Policy Form
+The Personal Auto Policy form is the bulk of your car insurance policy.
+
+On the personal auto policy form you will find the insuring agreement, which lays out in great detail exactly what your car insurance company is providing you in exchange for your premium.
+
+Included in the insuring agreement you will find sections broken down into the following:
+
+Definitions:
+Here you will find helpful definitions of terms you will see in the rest of your agreement.
+Coverages:
+Each of the car insurance coverages that are part of your policy is explained in detail.
+In this section, you can learn about the specific scenarios that will be covered by your policy as well as various exclusions of each one of your coverages.
+This is also where you can find information regarding how the value of your vehicle is assessed if you need to make a claim on your comprehensive or collision coverages.
+Duties After an Accident or Loss:
+Here you will find details regarding the actions you’ll need to take after an accident or loss.
+General Provisions – In this section you will find miscellaneous stipulations to your contract, regarding:
+Changes – Your insurance company will lay out what you can change on your policy and how you can make those changes.
+Remember, most changes will also result in a change in your premium.
+Fraud.
+Limitations to the legal actions you can take against your car insurance company.
+Policy period and territory – When and where your policy is effective.
+Termination – Here you will find a detailed list of how you can cancel the policy, as well as how the insurance company can terminate the policy.
+Reading your car insurance policy may seem daunting, but you may be surprised by how much of it you will be able to understand.
+
+Study the documents that form your policy to help ensure you get the most out of your car insurance." >
+        </TextView>
+
+        <!--/LinearLayout-->
+
+        <!--android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"-->
+
+
+        <!--/android.support.constraint.ConstraintLayout-->
+
+
+    </ScrollView>
+
+    <!--CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I do hereby that I have read all the declararion content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" /-->
+
+</android.support.constraint.ConstraintLayout>
